@@ -29,4 +29,15 @@
     ------------- | ------------- | ------------- | ------------- |
     Accuracy | **91.82 %** | **90.86 %** | **91.50 %**  |
     
-    
+   - Inference:
+
+      ## RUN
+      You can run  Inference with the following command
+      
+      **Please Download [Models](https://drive.google.com/drive/folders/1C44lOwXWsS9uHxB5YyoyQk4kfOoCz96N?usp=sharing)**
+
+      ```
+      $ pip install requirements.txt
+      
+      python inference.py [--input_model INPUT] [--input_image INPUT]
+      ```
